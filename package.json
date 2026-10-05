@@ -1,0 +1,12 @@
+{
+  "name": "kendor-backend",
+  "version": "0.1.0",
+  "description": "Kendor backend: takes orders, collects payment with Paystack, delivers data and airtime through a supplier.",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "node --test --no-warnings"
+  },
+  "dependencies": {}
+}
